@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    background-color: #009CDB;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+#container_title{    
+  text-align: center;
+}
