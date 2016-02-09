@@ -6,7 +6,7 @@
 		$tel = $_POST['contactPhoneNumber'];
 		$subject = 'OVI Hydration: ' . $_POST['contactSubject'];
 		$body = 'Contact Name: ' . $_POST['contactName'] . PHP_EOL . 'Contact Number: ' . $_POST['contactPhoneNumber'] . PHP_EOL . PHP_EOL . 'Comments: ' . $_POST['contactContent'];
-		$to = 'Tomoe_Kawakami@suntory.co.jp';
+		$to = 'ovi_info@ovihydration.us';
 		
 		
 		$headers = 'From: ' . $from . ' ' . "\r\n" .
